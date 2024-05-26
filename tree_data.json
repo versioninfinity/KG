@@ -1,0 +1,388 @@
+{
+  "next_id": 50,
+  "nodes": [
+    {
+      "id": 1,
+      "data": "Root Node",
+      "color": "red",
+      "parent": null,
+      "children": [
+        5,
+        43
+      ]
+    },
+    {
+      "id": 5,
+      "data": "Computer Science",
+      "color": "red",
+      "parent": 1,
+      "children": [
+        2,
+        4,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "data": "Data Structures and Algorithms",
+      "color": "red",
+      "parent": 5,
+      "children": [
+        7
+      ]
+    },
+    {
+      "id": 7,
+      "data": "Introduction to Algorithms - Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "color": "red",
+      "parent": 2,
+      "children": [
+        8,
+        13
+      ]
+    },
+    {
+      "id": 8,
+      "data": "Foundations",
+      "color": "red",
+      "parent": 7,
+      "children": [
+        9,
+        12
+      ]
+    },
+    {
+      "id": 9,
+      "data": "Role of Algorithms of Algorithms in Computing",
+      "color": "red",
+      "parent": 8,
+      "children": [
+        10,
+        11
+      ]
+    },
+    {
+      "id": 10,
+      "data": "Algorithms",
+      "color": "red",
+      "parent": 9,
+      "children": []
+    },
+    {
+      "id": 11,
+      "data": "Algorithms as a technology",
+      "color": "red",
+      "parent": 9,
+      "children": []
+    },
+    {
+      "id": 12,
+      "data": "Getting Started",
+      "color": "red",
+      "parent": 8,
+      "children": []
+    },
+    {
+      "id": 13,
+      "data": "Data Structures",
+      "color": "red",
+      "parent": 7,
+      "children": [
+        14,
+        19,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "id": 14,
+      "data": "Elementary Data Structures",
+      "color": "red",
+      "parent": 13,
+      "children": [
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "id": 15,
+      "data": "Stacks and Queues",
+      "color": "red",
+      "parent": 14,
+      "children": [
+        40,
+        44
+      ]
+    },
+    {
+      "id": 40,
+      "data": "What are stacks and queus in short?",
+      "color": "red",
+      "parent": 15,
+      "children": [
+        41,
+        49
+      ]
+    },
+    {
+      "id": 41,
+      "data": "Stacks and queues are dynamic sets in which the element removed from the set by the D E L E T E operation is prespecified. In a stack, the element deleted from the set is the one most recently inserted: the stack implements a last-in, first-out, or LIFO, policy. Similarly, in a queue, the element deleted is always the one that has been in the set for the longest time: the queue implements a first-in, first-out, or FIFO, policy. There are several efficient ways to implement stacks and queues on a computer. In this section we show how to use a simple array to implement each.",
+      "color": "red",
+      "parent": 40,
+      "children": []
+    },
+    {
+      "id": 49,
+      "data": "nice",
+      "color": "red",
+      "parent": 40,
+      "children": []
+    },
+    {
+      "id": 44,
+      "data": "Stacks",
+      "color": "red",
+      "parent": 15,
+      "children": [
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "id": 45,
+      "data": "def show_subtree(node):    \"\"\"Prints the subtree rooted at the given node with full text.\"\"\"    def print_subtree(node, indent=0):        print(\" \" * indent + node.full_repr())        for child in node.children:            print_subtree(child, indent + 2)        print_/usr/bin/python3 /Users/zaragoel/Desktop/study/main.py",
+      "color": "red",
+      "parent": 44,
+      "children": []
+    },
+    {
+      "id": 46,
+      "data": "The INSERT operation on a stack is often called PUSH, and the DELETE opera- tion, which does not take an element argument, is often called POP. These names are allusions to physical stacks, such as the spring-loaded stacks of plates used in cafeterias. The order in which plates are popped from the stack is the reverse of the order in which they were pushed onto the stack, since only the top plate is accessible. we can implement a stack of at most n elements with an array S\u01521::n\udbff\udc01. The array has an attribute S:top that indexes the most recently inserted element. The stack consists of elements S\u01521::S:top\udbff\udc01, where S\u01521\udbff\udc01 is the element at the bottom of the stack and S\u0152S:top\udbff\udc01 is the element at the top.When S:top D 0, the stack contains no elements and is empty. We can test to see whether the stack is empty by query operation STACK-EMPTY. If we attempt to pop an empty stack, we say the stack underflows, which is normally an error. If S:top exceeds n, the sta",
+      "color": "red",
+      "parent": 44,
+      "children": []
+    },
+    {
+      "id": 47,
+      "data": "Pseudo code",
+      "color": "red",
+      "parent": 44,
+      "children": [
+        48
+      ]
+    },
+    {
+      "id": 48,
+      "data": "Stack-Empty(S)",
+      "color": "red",
+      "parent": 47,
+      "children": []
+    },
+    {
+      "id": 16,
+      "data": "Linked Lists",
+      "color": "red",
+      "parent": 14,
+      "children": []
+    },
+    {
+      "id": 17,
+      "data": "Implementing Pointers and Objects",
+      "color": "red",
+      "parent": 14,
+      "children": []
+    },
+    {
+      "id": 18,
+      "data": "Representing Rooted Trees",
+      "color": "red",
+      "parent": 14,
+      "children": []
+    },
+    {
+      "id": 19,
+      "data": "Hash Tables",
+      "color": "red",
+      "parent": 13,
+      "children": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 20,
+      "data": "Direct -address tables",
+      "color": "red",
+      "parent": 19,
+      "children": []
+    },
+    {
+      "id": 21,
+      "data": "Hash tables",
+      "color": "red",
+      "parent": 19,
+      "children": []
+    },
+    {
+      "id": 22,
+      "data": "Hash functions",
+      "color": "red",
+      "parent": 19,
+      "children": []
+    },
+    {
+      "id": 23,
+      "data": "Open addressing ",
+      "color": "red",
+      "parent": 19,
+      "children": []
+    },
+    {
+      "id": 24,
+      "data": "Perfect hashing",
+      "color": "red",
+      "parent": 19,
+      "children": []
+    },
+    {
+      "id": 25,
+      "data": "Binary Search Trees",
+      "color": "red",
+      "parent": 13,
+      "children": [
+        28,
+        29,
+        30,
+        32
+      ]
+    },
+    {
+      "id": 28,
+      "data": "What is a binary search tree?",
+      "color": "red",
+      "parent": 25,
+      "children": []
+    },
+    {
+      "id": 29,
+      "data": "Querying a binary search tree",
+      "color": "red",
+      "parent": 25,
+      "children": []
+    },
+    {
+      "id": 30,
+      "data": "Insertion and Deletion",
+      "color": "red",
+      "parent": 25,
+      "children": []
+    },
+    {
+      "id": 32,
+      "data": "Randomly built binary search trees",
+      "color": "red",
+      "parent": 25,
+      "children": []
+    },
+    {
+      "id": 26,
+      "data": "Red-Black Trees",
+      "color": "red",
+      "parent": 13,
+      "children": [
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "id": 33,
+      "data": "Properties of red-black trees",
+      "color": "red",
+      "parent": 26,
+      "children": []
+    },
+    {
+      "id": 34,
+      "data": "Rotations",
+      "color": "red",
+      "parent": 26,
+      "children": []
+    },
+    {
+      "id": 35,
+      "data": "Insertions",
+      "color": "red",
+      "parent": 26,
+      "children": []
+    },
+    {
+      "id": 36,
+      "data": "Deletion",
+      "color": "red",
+      "parent": 26,
+      "children": []
+    },
+    {
+      "id": 27,
+      "data": "Augmenting Data Structures",
+      "color": "red",
+      "parent": 13,
+      "children": [
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "id": 37,
+      "data": "Dynamic order Statistics",
+      "color": "red",
+      "parent": 27,
+      "children": []
+    },
+    {
+      "id": 38,
+      "data": "How to augment a data structure",
+      "color": "red",
+      "parent": 27,
+      "children": []
+    },
+    {
+      "id": 39,
+      "data": "Interval Trees",
+      "color": "red",
+      "parent": 27,
+      "children": []
+    },
+    {
+      "id": 4,
+      "data": "Operating System",
+      "color": "red",
+      "parent": 5,
+      "children": []
+    },
+    {
+      "id": 3,
+      "data": "Computer Organisation",
+      "color": "red",
+      "parent": 5,
+      "children": []
+    },
+    {
+      "id": 43,
+      "data": "",
+      "color": "red",
+      "parent": 1,
+      "children": []
+    }
+  ]
+}

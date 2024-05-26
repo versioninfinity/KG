@@ -1,0 +1,88 @@
+{
+  "next_id": 8,
+  "nodes": [
+    {
+      "id": 1,
+      "data": "Root Node",
+      "color": "red",
+      "parent": null,
+      "children": [
+        2
+      ],
+      "questions": [
+      ],
+      "concept":[]
+    },
+    {
+      "id": 2,
+      "data": "LISP",
+      "color": "red",
+      "parent": 1,
+      "children": [
+        3,
+        4
+      ],
+      "questions": [
+        "What is a good language to learn data structures and algorithms?"
+      ],
+      "concept":[]
+    },
+    {
+      "id": 3,
+      "data": "Data Structures and Algorithms",
+      "color": "red",
+      "parent": 2,
+      "children": [
+        6,
+        5
+      ],
+      "questions": [
+        "What is used to implement a concept?",
+        "What is used to implement an abstract data type?"
+      ],
+      "concept":[]
+    },
+    {
+      "id": 6,
+      "data": "Array",
+      "color": "red",
+      "parent": 3,
+      "children": [],
+      "questions": [],
+      "concept":[]
+    },
+    {
+      "id": 5,
+      "data": "Queue",
+      "color": "red",
+      "parent": 3,
+      "children": [],
+      "questions": [
+        "What is used to implement a first in first out information system?"
+      ],
+      "concept":[]
+    },
+    {
+      "id": 4,
+      "data": "Syntax",
+      "color": "red",
+      "parent": 2,
+      "children": [
+        7
+      ],
+      "questions": [
+        "What are the building blocks needed for writing lisp"
+      ],
+      "concept":[]
+    },
+    {
+      "id": 7,
+      "data": "List ",
+      "color": "red",
+      "parent": 4,
+      "children": [],
+      "questions": [],
+      "concept":[]
+    }
+  ]
+}
